@@ -1,41 +1,31 @@
 <template>
   <div>
     <div class="primary-bg">
-      <div class="container mx-auto py-20">
-        <div class="bg-white p-5 mb-20">
+      <div class="container mx-auto pt-20 pb-10">
+        <div class="bg-white">
           <div class="flex items-center">
             <div class="min-w-max">
-              <h2 class="text-3xl font-bold text-black">Lanxvax</h2>
+              <h2 class="text-2xl font-bold text-black uppercase px-6"><nuxt-link to="/">Lanxvax</nuxt-link></h2>
             </div>
 
             <div class="w-full">
-              <ul class="flex justify-center gap-3 text-xl">
-                <li><nuxt-link to="/">Home</nuxt-link></li>
-                <li><nuxt-link to="/">Registration</nuxt-link></li>
-                <li><nuxt-link to="/">Verify</nuxt-link></li>
-                <li><nuxt-link to="/">Vaccine Card</nuxt-link></li>
-                <li><nuxt-link to="/">Help</nuxt-link></li>
-                <li><nuxt-link to="/">FAQs</nuxt-link></li>
+              <ul class="flex justify-center">
+                <li><nuxt-link class="menu-item" to="/">Home</nuxt-link></li>
+                <li><nuxt-link class="menu-item" to="/registration">Registration</nuxt-link></li>
+                <li><nuxt-link class="menu-item" to="/verify">Verify</nuxt-link></li>
+                <li><nuxt-link class="menu-item" to="/vaccine-card">Vaccine Card</nuxt-link></li>
+                <li><nuxt-link class="menu-item" to="/help">Help</nuxt-link></li>
+                <li><nuxt-link class="menu-item" to="/faqs">Faqs</nuxt-link></li>
               </ul>
             </div>
 
             <div class="min-w-max">
-              <nuxt-link class="primary-bg p-3 text-white rounded-xl" to="/">Register Now</nuxt-link>
+              <div class="px-6">
+                <nuxt-link class="primary-btn" to="/">Register Now</nuxt-link>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="flex items-center">
-          <div class="w-full">
-            <h1 class="text-9xl font-bold text-white uppercase">Vaccine</h1>
-            <h2 class="text-7xl font-medium text-white mb-6">Registration</h2>
-            <p class="text-xl text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam, consectetur culpa dignissimos doloremque enim facere, harum magnam minima placeat</p>
-          </div>
-          <div class="min-w-max">
-            <img src="~/static/img/Vaccine-bro.png" alt="" width="616">
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
