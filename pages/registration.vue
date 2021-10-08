@@ -147,7 +147,7 @@ export default {
       districts: [],
       upazilas: [],
       centers: [],
-      step: 'step_3',
+      step: 'step_1',
       peopleData: [],
       verifyData: {
         category_id: '',
